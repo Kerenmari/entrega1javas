@@ -30,6 +30,15 @@ comparar(77,77)
 console.log(`EJERCICIO 3`);
 console.log(`=====================`);
 
+const multiplo = numero => {
+  if(numero % 5 === 0){
+    console.log('el numero es multiplo de 5')
+  } else{
+    console.log('el numero no es multiplo de 5')
+  }
+}
+multiplo(15)
+multiplo(17)
 
 console.log(`EJERCICIO 4`);
 console.log(`=====================`);
