@@ -43,10 +43,12 @@ multiplo(17)
 console.log(`EJERCICIO 4`);
 console.log(`=====================`);
 
-for (let i = 0; i <= 12; i++) {
-  console.log(i);
+const imprimirNumeros = numero =>{
+  for(let i = 0; i <= numero; i++){
+    console.log(i)
+  }
 }
-
+imprimirNumeros(7)
 
 console.log(`EJERCICIO 5`);
 console.log(`=====================`);
