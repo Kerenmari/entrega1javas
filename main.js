@@ -1,14 +1,15 @@
 console.log(`EJERCICIO 1`);
 console.log(`=====================`);
 
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 === 0) {
-    console.log(` ${i} es par`);
-  } else {
-    console.log(` ${i} es impar`);
+const parImpar = numero => {
+  if(numero % 2 === 0){
+    console.log('el numero es par')
+  } else{
+    console.log('el numero es impar')
   }
 }
-
+parImpar(17)
+parImpar(20)
 
 console.log(`EJERCICIO 2`);
 console.log(`=====================`);
