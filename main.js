@@ -20,10 +20,12 @@ function comparar(num1, num2){
   } else if(num1 < num2){
       console.log(`el numero ${num1} es menor ${num2}`)
   } else{
-      console.log('el numero es igual')
+      console.log('los numeros son iguales')
   }
   }
 comparar(67,77)
+comparar(87,77)
+comparar(77,77)
 
 console.log(`EJERCICIO 3`);
 console.log(`=====================`);
