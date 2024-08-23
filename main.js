@@ -53,11 +53,12 @@ imprimirNumeros(7)
 console.log(`EJERCICIO 5`);
 console.log(`=====================`);
 
-for (let i = 1; i <= 6; i++) {
-  console.log(`Mes`);
-  console.log(i);
+const imprimirPalabra = (palabra, numero) => {
+  for(let i =  0; i < numero; i++){
+    console.log(palabra)
+  }
 }
-
+imprimirPalabra('Hola', 3)
 
 console.log(`EJERCICIO 6`);
 console.log(`=====================`);
