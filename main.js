@@ -63,15 +63,33 @@ imprimirPalabra('Hola', 3)
 console.log(`EJERCICIO 6`);
 console.log(`=====================`);
 
-const meses = ["enero", "febrero", "marzo", "abril", "Mayo"];
-for (let i = 0; i < 5; i++){
-  console.log(meses [i])
+const imprimirArray = array => {
+  for(let i = 0; i < array.length; i++){
+    console.log(array[i]);
+  }
 }
-
+const arr = ['enero', 'febrero', 'marzo']
+imprimirArray(arr);
 
 console.log(`EJERCICIO 7`);
 console.log(`=====================`);
 
+const imprimirArrayMenosCinco = array => {
+  for (let i = 0; i < array.length; i ++){
+    if (i === 4){
+      continue;
+    }
+    console.log(array[i]);
+  }
+};
+imprimirArrayMenosCinco([1,2,3,4,5,6,7])
 
 console.log(`EJERCICIO 8`);
 console.log(`=====================`);
+
+// const multiplicarArray = (array, numero) => {
+//   for (let i = 0; i < array.length i ++){
+//     console.log(array[i] * numero)
+//   }
+// }
+// multiplicarArray([1, 2, 3, 4, 5, 6], 2)
